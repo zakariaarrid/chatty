@@ -8,15 +8,15 @@ $("#btn-chat").click(function(){
   barreright='<li class="right clearfix"><span class="chat-img pull-right">';
   barreright+='<img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />';
   barreright+='</span><div class="chat-body clearfix"><div class="header">';
-  barreright+='<small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small><strong class="pull-right primary-font">anonyme</strong></div>';
+  barreright+='<small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small><strong class="pull-right primary-font">anonymous</strong></div>';
   barreright+='<p>'+aux+'</p></div></li>'; 
   $("ul").append(barreright);
 /*************************************************/  
   aux1=output(input);  
   barreleft='<li class="left clearfix"><span class="chat-img pull-left">';
-  barreleft+='<img src="actor2.jpg" alt="User Avatar" class="img-circle" style="width:50px;height:50px;"/></span>';
+  barreleft+='<img src="assets/img/actor2.jpg" alt="User Avatar" class="img-circle" style="width:50px;height:50px;"/></span>';
   barreleft+='<div class="chat-body clearfix"><div class="header">';
-  barreleft+='<strong class="primary-font">Artisan des Réseaux</strong><small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span>12 mins ago</small>';
+  barreleft+='<strong class="primary-font">Admin</strong><small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span>12 mins ago</small>';
   barreleft+='</div><p>'+aux1+'</p></div></li>';
   setTimeout(function () {
   $("ul").append(barreleft);
