@@ -8,3 +8,5 @@ Betta
 
 ### screenshot
 
+![Demo Animation](../assets/chatty_1.png?raw=true)
+
